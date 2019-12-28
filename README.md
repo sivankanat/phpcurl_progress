@@ -1,2 +1,2 @@
 # phpcurl_progress
-Php curl with progress bar and downloading files
+Simple php curl with progress bar and downloading files

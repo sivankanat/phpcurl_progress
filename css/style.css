@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+h2 {
+    margin-top: 0;
+}
+.wrap {
+    width: 350px;
+    margin: 0 auto;
+    max-width: 95%;
+    text-align: center;
+}
+input {
+    padding: 5px;
+    width: 100%;
+    margin: 5px 0;
+}
+input[type="button"] {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    cursor: pointer;
+    padding: 4px;
+}
+.progress {
+    height: 18px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    display: flex;
+    width: 100%;
+}
+
+.pinner {
+    width: 0px;
+    background: #1bacb3;
+}
+.count {
+    text-align: center;
+}
+footer {
+    color: #e0e0e0;
+}
